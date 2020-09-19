@@ -104,7 +104,7 @@ public class JDBCApplicationDemo {
                 while (resultSet.next()) {
 
                     String personID = resultSet.getString(1);///Column index always start with 1
-                    String lastName = resultSet.getString(2);//Column index always start with 1 since we have already person ID hence we are not selecting here directly selecting 2 colum
+                    String lastName = resultSet.getString(2);
                     String firstName = resultSet.getString(3);
                     String address = resultSet.getString(4);
                     String city = resultSet.getString(5);
