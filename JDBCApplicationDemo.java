@@ -230,7 +230,7 @@ public class JDBCApplicationDemo {
 
         PreparedStatement preparedStatment = null;
         //Note: In case of ORACLE database metadata (e.g. table name ,colum )are case insensitive but values inside the table are case sensitive
-        String deleteQuery = "DELETE PERSONS WHERE PersonID = ?";
+        String deleteQuery = "DELETE FROM PERSONS WHERE PersonID = ?";
 
         try {
             //instantiation preparedStatment
